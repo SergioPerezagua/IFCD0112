@@ -30,7 +30,7 @@ public class Ventana_Calculadora extends JFrame{
 	public Ventana_Calculadora() {
 		
 		
-		setTitle("Calcuadora");
+		setTitle("Calculadora");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 438, 277);
 		contentPane = new JPanel();
