@@ -7,7 +7,7 @@ import utilidades.Utilidades;
 
 public class GeneradorDeInsultos extends JFrame {
 	
-	String[] insultos = new String[]{"Gilipollas","Subnormal","Malpar�o","Sapo hijueputa","Locaelco�o","Mamayema","Comemierda",
+	String[] insultos = new String[]{"Gilipollas","Subnormal","Malparío","Sapo hijueputa","Locaelcoño","Mamayema","Comemierda",
             "Gonorrea","Carapolla","Mierdaseca","Carechimba","Boludo","filho da puta","Sanguijuela","Despojo humano",
             "soplanucas","muerdealmohadas","Mariconson","Bocachancla","tripasdehule","Asaltacunas","tuercebotas","Muerdemuelas",
             "Caramierda","Mameluco","cuerpoejcombro","Pecholata","Peinabombillas","CALVO!!!","Huelebragas","Mascachapas",
