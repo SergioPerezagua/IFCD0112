@@ -1,9 +1,22 @@
 package tontunas_Swing;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.BorderFactory;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+
 import utilidades.Utilidades;
+
+
 
 public class GeneradorDeInsultos extends JFrame {
 	
@@ -101,6 +114,7 @@ public class GeneradorDeInsultos extends JFrame {
 	    public void rellenarTexbox()
 	    {
 	    	int num=Utilidades.generarNumeroAleatorio(0, insultos.length-1);
+
     		if (comboBoxNumeros.getSelectedIndex() == 2) 
     		{
     			txtNumeros.setText(comboBoxNumeros.getSelectedItem()+" es una "+insultos[num]);
